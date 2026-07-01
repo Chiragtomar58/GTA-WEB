@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import 'remixicon/fonts/remixicon.css';
+
+@font-face {
+  font-family: "pricedown";
+  src: url("./assets/pricedown.ttf");
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('./assets/HelveticaNowDisplay.ttf') format('ttf'),
+       url('./assets/HelveticaNowDisplay-Regular.woff') format('woff'),
+       url('./assets/HelveticaNowDisplay-Regular.woff2') format('woff2');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "pricedown";
+}
+
+/* Add this to your existing CSS */
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+}
+
+[data-scroll-container] {
+  min-height: 100vh;
+}
