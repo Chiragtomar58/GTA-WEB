@@ -4,7 +4,7 @@ A modern, interactive website clone inspired by GTA (Grand Theft Auto) with smoo
 
 ## 🌐 Live Demo
 
-Visit the live website: [GTA Clone](https://gtaclone.netlify.app/)
+Visit the live website: [GTA Clone]()
 
 ## ✨ Features
 
@@ -54,7 +54,7 @@ Visit the live website: [GTA Clone](https://gtaclone.netlify.app/)
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/chuck-ankit/GTA.git
+   git clone https://github.com/Chiragtomar58/GTA-WEB
    ```
 
 2. Install dependencies:
@@ -103,5 +103,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-- Ankit Kumar
-- GitHub: [@chuck-ankit](https://github.com/chuck-ankit)
+- Chirag Tomar
+- GitHub: https://github.com/Chiragtomar58/
